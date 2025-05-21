@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Food">
+        <!--"水果","蔬菜","飲料","肉製品","加工製品"-->
+        <item>水果</item>
+        <item>蔬菜</item>
+        <item>飲料</item>
+        <item>肉製品</item>
+        <item>乳製品</item>
+        <item>加工製品</item>
+    </string-array>
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">libraryList</string>
+    <string name="signup">註冊</string>
+    <string name="sign">沒有帳號密碼?點這</string>
+    <string name="account">輸入帳號</string>
+    <string name="password">輸入密碼</string>
+    <string name="login">登入</string>
+    <string name="logo">logo</string>
+
+    <string name="plz_input_accout">請輸入帳號</string>
+    <string name="plz_input_pw">請輸入密碼</string>
+</resources>

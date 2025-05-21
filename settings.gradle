@@ -1,0 +1,10 @@
+include ':recyclerview'
+include ':exsqlite04'
+include ':exsqlite01_08130521_'
+include ':exlogin'
+include ':ch12_ex1'
+include ':ch9_ex2'
+include ':test'
+include ':librarylist'
+include ':app'
+rootProject.name = "My Application"

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <TextView
+        android:id="@+id/txtFoodName"
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/blue"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="食物名:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="?attr/colorBackgroundFloating"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txtShowDate"
+        android:layout_width="355dp"
+        android:layout_height="49dp"
+        android:layout_gravity="center"
+        android:layout_weight="8"
+        android:background="@color/yellow"
+        android:gravity="center"
+        android:text="過期時間："
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnDelete"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="53dp"
+            android:layout_height="wrap_content"
+            app:backgroundTint="#00AF0C0C"
+            app:icon="@drawable/ic_delete"
+            app:iconPadding="15dp" />
+
+        <Button
+            android:id="@+id/btnedit"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="49dp"
+            android:layout_height="wrap_content"
+            app:backgroundTint="#00DC880C"
+            app:icon="@drawable/ic_baseline_edit_24"
+            app:iconPadding="15dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">食時刻刻</string>
+    <string name="welcome">歡迎使用TimeIceBox</string>
+    <string name="food_name">食物</string>
+    <string name="expired_day">過期日</string>
+    <string name="category">類別</string>
+    <string name="remind">過期提醒天數</string>
+    <string name="submit">送出</string>
+    <string name="please_select">請選擇</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="input">輸入</string>
+    <string name="goodicebox">冰箱</string>
+    <string name="badicebox">壞冰箱</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
